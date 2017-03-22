@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEBC391A1E7FB3AF00C9E859 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39191E7FB3AF00C9E859 /* main.m */; };
+		DEBC391D1E7FB3AF00C9E859 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC391C1E7FB3AF00C9E859 /* AppDelegate.m */; };
+		DEBC39201E7FB3AF00C9E859 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC391F1E7FB3AF00C9E859 /* ViewController.m */; };
+		DEBC39231E7FB3AF00C9E859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBC39211E7FB3AF00C9E859 /* Main.storyboard */; };
+		DEBC39261E7FB3AF00C9E859 /* JQScrollViewHeader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39241E7FB3AF00C9E859 /* JQScrollViewHeader.xcdatamodeld */; };
+		DEBC39281E7FB3AF00C9E859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBC39271E7FB3AF00C9E859 /* Assets.xcassets */; };
+		DEBC392B1E7FB3AF00C9E859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBC39291E7FB3AF00C9E859 /* LaunchScreen.storyboard */; };
+		DEBC39361E7FB3AF00C9E859 /* JQScrollViewHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39351E7FB3AF00C9E859 /* JQScrollViewHeaderTests.m */; };
+		DEBC39411E7FB3AF00C9E859 /* JQScrollViewHeaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39401E7FB3AF00C9E859 /* JQScrollViewHeaderUITests.m */; };
+		DEBC39501E7FB3EF00C9E859 /* JQScrollViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC394F1E7FB3EF00C9E859 /* JQScrollViewHeader.m */; };
+		DEBC39731E7FBB7800C9E859 /* EMSDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39531E7FBB7800C9E859 /* EMSDImageCache.m */; };
+		DEBC39741E7FBB7800C9E859 /* EMSDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39551E7FBB7800C9E859 /* EMSDWebImageCompat.m */; };
+		DEBC39751E7FBB7800C9E859 /* EMSDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39571E7FBB7800C9E859 /* EMSDWebImageDecoder.m */; };
+		DEBC39761E7FBB7800C9E859 /* EMSDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39591E7FBB7800C9E859 /* EMSDWebImageDownloader.m */; };
+		DEBC39771E7FBB7800C9E859 /* EMSDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC395B1E7FBB7800C9E859 /* EMSDWebImageDownloaderOperation.m */; };
+		DEBC39781E7FBB7800C9E859 /* EMSDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC395D1E7FBB7800C9E859 /* EMSDWebImageManager.m */; };
+		DEBC39791E7FBB7800C9E859 /* EMSDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39601E7FBB7800C9E859 /* EMSDWebImagePrefetcher.m */; };
+		DEBC397A1E7FBB7800C9E859 /* MKAnnotationView+EMWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39621E7FBB7800C9E859 /* MKAnnotationView+EMWebCache.m */; };
+		DEBC397B1E7FBB7800C9E859 /* NSData+EMImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39641E7FBB7800C9E859 /* NSData+EMImageContentType.m */; };
+		DEBC397C1E7FBB7800C9E859 /* UIButton+EMWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39661E7FBB7800C9E859 /* UIButton+EMWebCache.m */; };
+		DEBC397D1E7FBB7800C9E859 /* UIImage+EMGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39681E7FBB7800C9E859 /* UIImage+EMGIF.m */; };
+		DEBC397E1E7FBB7800C9E859 /* UIImage+EMMultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC396A1E7FBB7800C9E859 /* UIImage+EMMultiFormat.m */; };
+		DEBC397F1E7FBB7800C9E859 /* UIImage+EMWebP.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC396C1E7FBB7800C9E859 /* UIImage+EMWebP.m */; };
+		DEBC39801E7FBB7800C9E859 /* UIImageView+EMHighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC396E1E7FBB7800C9E859 /* UIImageView+EMHighlightedWebCache.m */; };
+		DEBC39811E7FBB7800C9E859 /* UIImageView+EMWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39701E7FBB7800C9E859 /* UIImageView+EMWebCache.m */; };
+		DEBC39821E7FBB7800C9E859 /* UIView+EMWebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBC39721E7FBB7800C9E859 /* UIView+EMWebCacheOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEBC39321E7FB3AF00C9E859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEBC390D1E7FB3AF00C9E859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEBC39141E7FB3AF00C9E859;
+			remoteInfo = JQScrollViewHeader;
+		};
+		DEBC393D1E7FB3AF00C9E859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEBC390D1E7FB3AF00C9E859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEBC39141E7FB3AF00C9E859;
+			remoteInfo = JQScrollViewHeader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEBC39151E7FB3AF00C9E859 /* JQScrollViewHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQScrollViewHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBC39191E7FB3AF00C9E859 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEBC391B1E7FB3AF00C9E859 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEBC391C1E7FB3AF00C9E859 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEBC391E1E7FB3AF00C9E859 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEBC391F1E7FB3AF00C9E859 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEBC39221E7FB3AF00C9E859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEBC39251E7FB3AF00C9E859 /* JQScrollViewHeader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JQScrollViewHeader.xcdatamodel; sourceTree = "<group>"; };
+		DEBC39271E7FB3AF00C9E859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEBC392A1E7FB3AF00C9E859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEBC392C1E7FB3AF00C9E859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEBC39311E7FB3AF00C9E859 /* JQScrollViewHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQScrollViewHeaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBC39351E7FB3AF00C9E859 /* JQScrollViewHeaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQScrollViewHeaderTests.m; sourceTree = "<group>"; };
+		DEBC39371E7FB3AF00C9E859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEBC393C1E7FB3AF00C9E859 /* JQScrollViewHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQScrollViewHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBC39401E7FB3AF00C9E859 /* JQScrollViewHeaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQScrollViewHeaderUITests.m; sourceTree = "<group>"; };
+		DEBC39421E7FB3AF00C9E859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEBC394E1E7FB3EF00C9E859 /* JQScrollViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQScrollViewHeader.h; sourceTree = "<group>"; };
+		DEBC394F1E7FB3EF00C9E859 /* JQScrollViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQScrollViewHeader.m; sourceTree = "<group>"; };
+		DEBC39521E7FBB7800C9E859 /* EMSDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDImageCache.h; sourceTree = "<group>"; };
+		DEBC39531E7FBB7800C9E859 /* EMSDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSDImageCache.m; sourceTree = "<group>"; };
+		DEBC39541E7FBB7800C9E859 /* EMSDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDWebImageCompat.h; sourceTree = "<group>"; };
+		DEBC39551E7FBB7800C9E859 /* EMSDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSDWebImageCompat.m; sourceTree = "<group>"; };
+		DEBC39561E7FBB7800C9E859 /* EMSDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDWebImageDecoder.h; sourceTree = "<group>"; };
+		DEBC39571E7FBB7800C9E859 /* EMSDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSDWebImageDecoder.m; sourceTree = "<group>"; };
+		DEBC39581E7FBB7800C9E859 /* EMSDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDWebImageDownloader.h; sourceTree = "<group>"; };
+		DEBC39591E7FBB7800C9E859 /* EMSDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSDWebImageDownloader.m; sourceTree = "<group>"; };
+		DEBC395A1E7FBB7800C9E859 /* EMSDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		DEBC395B1E7FBB7800C9E859 /* EMSDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		DEBC395C1E7FBB7800C9E859 /* EMSDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDWebImageManager.h; sourceTree = "<group>"; };
+		DEBC395D1E7FBB7800C9E859 /* EMSDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSDWebImageManager.m; sourceTree = "<group>"; };
+		DEBC395E1E7FBB7800C9E859 /* EMSDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDWebImageOperation.h; sourceTree = "<group>"; };
+		DEBC395F1E7FBB7800C9E859 /* EMSDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		DEBC39601E7FBB7800C9E859 /* EMSDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		DEBC39611E7FBB7800C9E859 /* MKAnnotationView+EMWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+EMWebCache.h"; sourceTree = "<group>"; };
+		DEBC39621E7FBB7800C9E859 /* MKAnnotationView+EMWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+EMWebCache.m"; sourceTree = "<group>"; };
+		DEBC39631E7FBB7800C9E859 /* NSData+EMImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+EMImageContentType.h"; sourceTree = "<group>"; };
+		DEBC39641E7FBB7800C9E859 /* NSData+EMImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+EMImageContentType.m"; sourceTree = "<group>"; };
+		DEBC39651E7FBB7800C9E859 /* UIButton+EMWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EMWebCache.h"; sourceTree = "<group>"; };
+		DEBC39661E7FBB7800C9E859 /* UIButton+EMWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EMWebCache.m"; sourceTree = "<group>"; };
+		DEBC39671E7FBB7800C9E859 /* UIImage+EMGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EMGIF.h"; sourceTree = "<group>"; };
+		DEBC39681E7FBB7800C9E859 /* UIImage+EMGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EMGIF.m"; sourceTree = "<group>"; };
+		DEBC39691E7FBB7800C9E859 /* UIImage+EMMultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EMMultiFormat.h"; sourceTree = "<group>"; };
+		DEBC396A1E7FBB7800C9E859 /* UIImage+EMMultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EMMultiFormat.m"; sourceTree = "<group>"; };
+		DEBC396B1E7FBB7800C9E859 /* UIImage+EMWebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EMWebP.h"; sourceTree = "<group>"; };
+		DEBC396C1E7FBB7800C9E859 /* UIImage+EMWebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EMWebP.m"; sourceTree = "<group>"; };
+		DEBC396D1E7FBB7800C9E859 /* UIImageView+EMHighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+EMHighlightedWebCache.h"; sourceTree = "<group>"; };
+		DEBC396E1E7FBB7800C9E859 /* UIImageView+EMHighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+EMHighlightedWebCache.m"; sourceTree = "<group>"; };
+		DEBC396F1E7FBB7800C9E859 /* UIImageView+EMWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+EMWebCache.h"; sourceTree = "<group>"; };
+		DEBC39701E7FBB7800C9E859 /* UIImageView+EMWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+EMWebCache.m"; sourceTree = "<group>"; };
+		DEBC39711E7FBB7800C9E859 /* UIView+EMWebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EMWebCacheOperation.h"; sourceTree = "<group>"; };
+		DEBC39721E7FBB7800C9E859 /* UIView+EMWebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EMWebCacheOperation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEBC39121E7FB3AF00C9E859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBC392E1E7FB3AF00C9E859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBC39391E7FB3AF00C9E859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEBC390C1E7FB3AF00C9E859 = {
+			isa = PBXGroup;
+			children = (
+				DEBC39171E7FB3AF00C9E859 /* JQScrollViewHeader */,
+				DEBC39341E7FB3AF00C9E859 /* JQScrollViewHeaderTests */,
+				DEBC393F1E7FB3AF00C9E859 /* JQScrollViewHeaderUITests */,
+				DEBC39161E7FB3AF00C9E859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEBC39161E7FB3AF00C9E859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC39151E7FB3AF00C9E859 /* JQScrollViewHeader.app */,
+				DEBC39311E7FB3AF00C9E859 /* JQScrollViewHeaderTests.xctest */,
+				DEBC393C1E7FB3AF00C9E859 /* JQScrollViewHeaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEBC39171E7FB3AF00C9E859 /* JQScrollViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC39511E7FBB7800C9E859 /* EMSDWebImage */,
+				DEBC391B1E7FB3AF00C9E859 /* AppDelegate.h */,
+				DEBC391C1E7FB3AF00C9E859 /* AppDelegate.m */,
+				DEBC391E1E7FB3AF00C9E859 /* ViewController.h */,
+				DEBC391F1E7FB3AF00C9E859 /* ViewController.m */,
+				DEBC394E1E7FB3EF00C9E859 /* JQScrollViewHeader.h */,
+				DEBC394F1E7FB3EF00C9E859 /* JQScrollViewHeader.m */,
+				DEBC39211E7FB3AF00C9E859 /* Main.storyboard */,
+				DEBC39271E7FB3AF00C9E859 /* Assets.xcassets */,
+				DEBC39291E7FB3AF00C9E859 /* LaunchScreen.storyboard */,
+				DEBC392C1E7FB3AF00C9E859 /* Info.plist */,
+				DEBC39241E7FB3AF00C9E859 /* JQScrollViewHeader.xcdatamodeld */,
+				DEBC39181E7FB3AF00C9E859 /* Supporting Files */,
+			);
+			path = JQScrollViewHeader;
+			sourceTree = "<group>";
+		};
+		DEBC39181E7FB3AF00C9E859 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC39191E7FB3AF00C9E859 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEBC39341E7FB3AF00C9E859 /* JQScrollViewHeaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC39351E7FB3AF00C9E859 /* JQScrollViewHeaderTests.m */,
+				DEBC39371E7FB3AF00C9E859 /* Info.plist */,
+			);
+			path = JQScrollViewHeaderTests;
+			sourceTree = "<group>";
+		};
+		DEBC393F1E7FB3AF00C9E859 /* JQScrollViewHeaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC39401E7FB3AF00C9E859 /* JQScrollViewHeaderUITests.m */,
+				DEBC39421E7FB3AF00C9E859 /* Info.plist */,
+			);
+			path = JQScrollViewHeaderUITests;
+			sourceTree = "<group>";
+		};
+		DEBC39511E7FBB7800C9E859 /* EMSDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC39521E7FBB7800C9E859 /* EMSDImageCache.h */,
+				DEBC39531E7FBB7800C9E859 /* EMSDImageCache.m */,
+				DEBC39541E7FBB7800C9E859 /* EMSDWebImageCompat.h */,
+				DEBC39551E7FBB7800C9E859 /* EMSDWebImageCompat.m */,
+				DEBC39561E7FBB7800C9E859 /* EMSDWebImageDecoder.h */,
+				DEBC39571E7FBB7800C9E859 /* EMSDWebImageDecoder.m */,
+				DEBC39581E7FBB7800C9E859 /* EMSDWebImageDownloader.h */,
+				DEBC39591E7FBB7800C9E859 /* EMSDWebImageDownloader.m */,
+				DEBC395A1E7FBB7800C9E859 /* EMSDWebImageDownloaderOperation.h */,
+				DEBC395B1E7FBB7800C9E859 /* EMSDWebImageDownloaderOperation.m */,
+				DEBC395C1E7FBB7800C9E859 /* EMSDWebImageManager.h */,
+				DEBC395D1E7FBB7800C9E859 /* EMSDWebImageManager.m */,
+				DEBC395E1E7FBB7800C9E859 /* EMSDWebImageOperation.h */,
+				DEBC395F1E7FBB7800C9E859 /* EMSDWebImagePrefetcher.h */,
+				DEBC39601E7FBB7800C9E859 /* EMSDWebImagePrefetcher.m */,
+				DEBC39611E7FBB7800C9E859 /* MKAnnotationView+EMWebCache.h */,
+				DEBC39621E7FBB7800C9E859 /* MKAnnotationView+EMWebCache.m */,
+				DEBC39631E7FBB7800C9E859 /* NSData+EMImageContentType.h */,
+				DEBC39641E7FBB7800C9E859 /* NSData+EMImageContentType.m */,
+				DEBC39651E7FBB7800C9E859 /* UIButton+EMWebCache.h */,
+				DEBC39661E7FBB7800C9E859 /* UIButton+EMWebCache.m */,
+				DEBC39671E7FBB7800C9E859 /* UIImage+EMGIF.h */,
+				DEBC39681E7FBB7800C9E859 /* UIImage+EMGIF.m */,
+				DEBC39691E7FBB7800C9E859 /* UIImage+EMMultiFormat.h */,
+				DEBC396A1E7FBB7800C9E859 /* UIImage+EMMultiFormat.m */,
+				DEBC396B1E7FBB7800C9E859 /* UIImage+EMWebP.h */,
+				DEBC396C1E7FBB7800C9E859 /* UIImage+EMWebP.m */,
+				DEBC396D1E7FBB7800C9E859 /* UIImageView+EMHighlightedWebCache.h */,
+				DEBC396E1E7FBB7800C9E859 /* UIImageView+EMHighlightedWebCache.m */,
+				DEBC396F1E7FBB7800C9E859 /* UIImageView+EMWebCache.h */,
+				DEBC39701E7FBB7800C9E859 /* UIImageView+EMWebCache.m */,
+				DEBC39711E7FBB7800C9E859 /* UIView+EMWebCacheOperation.h */,
+				DEBC39721E7FBB7800C9E859 /* UIView+EMWebCacheOperation.m */,
+			);
+			path = EMSDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEBC39141E7FB3AF00C9E859 /* JQScrollViewHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBC39451E7FB3AF00C9E859 /* Build configuration list for PBXNativeTarget "JQScrollViewHeader" */;
+			buildPhases = (
+				DEBC39111E7FB3AF00C9E859 /* Sources */,
+				DEBC39121E7FB3AF00C9E859 /* Frameworks */,
+				DEBC39131E7FB3AF00C9E859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQScrollViewHeader;
+			productName = JQScrollViewHeader;
+			productReference = DEBC39151E7FB3AF00C9E859 /* JQScrollViewHeader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEBC39301E7FB3AF00C9E859 /* JQScrollViewHeaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBC39481E7FB3AF00C9E859 /* Build configuration list for PBXNativeTarget "JQScrollViewHeaderTests" */;
+			buildPhases = (
+				DEBC392D1E7FB3AF00C9E859 /* Sources */,
+				DEBC392E1E7FB3AF00C9E859 /* Frameworks */,
+				DEBC392F1E7FB3AF00C9E859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEBC39331E7FB3AF00C9E859 /* PBXTargetDependency */,
+			);
+			name = JQScrollViewHeaderTests;
+			productName = JQScrollViewHeaderTests;
+			productReference = DEBC39311E7FB3AF00C9E859 /* JQScrollViewHeaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEBC393B1E7FB3AF00C9E859 /* JQScrollViewHeaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBC394B1E7FB3AF00C9E859 /* Build configuration list for PBXNativeTarget "JQScrollViewHeaderUITests" */;
+			buildPhases = (
+				DEBC39381E7FB3AF00C9E859 /* Sources */,
+				DEBC39391E7FB3AF00C9E859 /* Frameworks */,
+				DEBC393A1E7FB3AF00C9E859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEBC393E1E7FB3AF00C9E859 /* PBXTargetDependency */,
+			);
+			name = JQScrollViewHeaderUITests;
+			productName = JQScrollViewHeaderUITests;
+			productReference = DEBC393C1E7FB3AF00C9E859 /* JQScrollViewHeaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEBC390D1E7FB3AF00C9E859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "张家旗";
+				TargetAttributes = {
+					DEBC39141E7FB3AF00C9E859 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4UK2RY5J7H;
+						ProvisioningStyle = Automatic;
+					};
+					DEBC39301E7FB3AF00C9E859 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEBC39141E7FB3AF00C9E859;
+					};
+					DEBC393B1E7FB3AF00C9E859 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEBC39141E7FB3AF00C9E859;
+					};
+				};
+			};
+			buildConfigurationList = DEBC39101E7FB3AF00C9E859 /* Build configuration list for PBXProject "JQScrollViewHeader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEBC390C1E7FB3AF00C9E859;
+			productRefGroup = DEBC39161E7FB3AF00C9E859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEBC39141E7FB3AF00C9E859 /* JQScrollViewHeader */,
+				DEBC39301E7FB3AF00C9E859 /* JQScrollViewHeaderTests */,
+				DEBC393B1E7FB3AF00C9E859 /* JQScrollViewHeaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEBC39131E7FB3AF00C9E859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBC392B1E7FB3AF00C9E859 /* LaunchScreen.storyboard in Resources */,
+				DEBC39281E7FB3AF00C9E859 /* Assets.xcassets in Resources */,
+				DEBC39231E7FB3AF00C9E859 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBC392F1E7FB3AF00C9E859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBC393A1E7FB3AF00C9E859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEBC39111E7FB3AF00C9E859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBC397B1E7FBB7800C9E859 /* NSData+EMImageContentType.m in Sources */,
+				DEBC39781E7FBB7800C9E859 /* EMSDWebImageManager.m in Sources */,
+				DEBC39751E7FBB7800C9E859 /* EMSDWebImageDecoder.m in Sources */,
+				DEBC39201E7FB3AF00C9E859 /* ViewController.m in Sources */,
+				DEBC39731E7FBB7800C9E859 /* EMSDImageCache.m in Sources */,
+				DEBC39741E7FBB7800C9E859 /* EMSDWebImageCompat.m in Sources */,
+				DEBC397C1E7FBB7800C9E859 /* UIButton+EMWebCache.m in Sources */,
+				DEBC39801E7FBB7800C9E859 /* UIImageView+EMHighlightedWebCache.m in Sources */,
+				DEBC39771E7FBB7800C9E859 /* EMSDWebImageDownloaderOperation.m in Sources */,
+				DEBC39261E7FB3AF00C9E859 /* JQScrollViewHeader.xcdatamodeld in Sources */,
+				DEBC39761E7FBB7800C9E859 /* EMSDWebImageDownloader.m in Sources */,
+				DEBC39821E7FBB7800C9E859 /* UIView+EMWebCacheOperation.m in Sources */,
+				DEBC39501E7FB3EF00C9E859 /* JQScrollViewHeader.m in Sources */,
+				DEBC39791E7FBB7800C9E859 /* EMSDWebImagePrefetcher.m in Sources */,
+				DEBC391D1E7FB3AF00C9E859 /* AppDelegate.m in Sources */,
+				DEBC397F1E7FBB7800C9E859 /* UIImage+EMWebP.m in Sources */,
+				DEBC397A1E7FBB7800C9E859 /* MKAnnotationView+EMWebCache.m in Sources */,
+				DEBC397D1E7FBB7800C9E859 /* UIImage+EMGIF.m in Sources */,
+				DEBC397E1E7FBB7800C9E859 /* UIImage+EMMultiFormat.m in Sources */,
+				DEBC39811E7FBB7800C9E859 /* UIImageView+EMWebCache.m in Sources */,
+				DEBC391A1E7FB3AF00C9E859 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBC392D1E7FB3AF00C9E859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBC39361E7FB3AF00C9E859 /* JQScrollViewHeaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBC39381E7FB3AF00C9E859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBC39411E7FB3AF00C9E859 /* JQScrollViewHeaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEBC39331E7FB3AF00C9E859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEBC39141E7FB3AF00C9E859 /* JQScrollViewHeader */;
+			targetProxy = DEBC39321E7FB3AF00C9E859 /* PBXContainerItemProxy */;
+		};
+		DEBC393E1E7FB3AF00C9E859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEBC39141E7FB3AF00C9E859 /* JQScrollViewHeader */;
+			targetProxy = DEBC393D1E7FB3AF00C9E859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEBC39211E7FB3AF00C9E859 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEBC39221E7FB3AF00C9E859 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEBC39291E7FB3AF00C9E859 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEBC392A1E7FB3AF00C9E859 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEBC39431E7FB3AF00C9E859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEBC39441E7FB3AF00C9E859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEBC39461E7FB3AF00C9E859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UK2RY5J7H;
+				INFOPLIST_FILE = JQScrollViewHeader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjq.JQScrollViewHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEBC39471E7FB3AF00C9E859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UK2RY5J7H;
+				INFOPLIST_FILE = JQScrollViewHeader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjq.JQScrollViewHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEBC39491E7FB3AF00C9E859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JQScrollViewHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjq.JQScrollViewHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQScrollViewHeader.app/JQScrollViewHeader";
+			};
+			name = Debug;
+		};
+		DEBC394A1E7FB3AF00C9E859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JQScrollViewHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjq.JQScrollViewHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQScrollViewHeader.app/JQScrollViewHeader";
+			};
+			name = Release;
+		};
+		DEBC394C1E7FB3AF00C9E859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JQScrollViewHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjq.JQScrollViewHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQScrollViewHeader;
+			};
+			name = Debug;
+		};
+		DEBC394D1E7FB3AF00C9E859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JQScrollViewHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjq.JQScrollViewHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQScrollViewHeader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEBC39101E7FB3AF00C9E859 /* Build configuration list for PBXProject "JQScrollViewHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBC39431E7FB3AF00C9E859 /* Debug */,
+				DEBC39441E7FB3AF00C9E859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEBC39451E7FB3AF00C9E859 /* Build configuration list for PBXNativeTarget "JQScrollViewHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBC39461E7FB3AF00C9E859 /* Debug */,
+				DEBC39471E7FB3AF00C9E859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEBC39481E7FB3AF00C9E859 /* Build configuration list for PBXNativeTarget "JQScrollViewHeaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBC39491E7FB3AF00C9E859 /* Debug */,
+				DEBC394A1E7FB3AF00C9E859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEBC394B1E7FB3AF00C9E859 /* Build configuration list for PBXNativeTarget "JQScrollViewHeaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBC394C1E7FB3AF00C9E859 /* Debug */,
+				DEBC394D1E7FB3AF00C9E859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEBC39241E7FB3AF00C9E859 /* JQScrollViewHeader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEBC39251E7FB3AF00C9E859 /* JQScrollViewHeader.xcdatamodel */,
+			);
+			currentVersion = DEBC39251E7FB3AF00C9E859 /* JQScrollViewHeader.xcdatamodel */;
+			path = JQScrollViewHeader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DEBC390D1E7FB3AF00C9E859 /* Project object */;
+}
