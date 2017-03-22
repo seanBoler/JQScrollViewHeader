@@ -18,4 +18,8 @@
  
  
  
-  ![alt text](https://raw.github.com/juxuechen/Shar...)
+    ![image](https://raw.githubusercontent.com/seanBoler/JQScrollViewHeader/master/JQScrollViewHeader/gifscrollView.gif)
+
+
+
+
