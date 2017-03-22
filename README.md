@@ -1,10 +1,8 @@
 # JQScrollViewHeader
-仿造目前商城常用商品详情内轮播图滑动进入商品详情页
-
- 
- 
- 
- ### viewController 实现方法   
+-
+## 仿造目前商城常用商品详情内轮播图滑动进入商品详情页 
+ +
+ ### viewController 实现方法  
  
      NSArray *array = @[@"iphone7",@"iphone7",@"iphone7",@"iphone7"];
     
@@ -16,6 +14,5 @@
     
     [self.view addSubview:headerView];
  
-+ 
--
+ -
 ![image](https://raw.githubusercontent.com/seanBoler/JQScrollViewHeader/master/JQScrollViewHeader/gifscrollView.gif)
