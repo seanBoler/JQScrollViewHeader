@@ -18,7 +18,7 @@
  
  
  
-    ![image](https://raw.githubusercontent.com/seanBoler/JQScrollViewHeader/master/JQScrollViewHeader/gifscrollView.gif)
+ ![image](https://raw.githubusercontent.com/seanBoler/JQScrollViewHeader/master/JQScrollViewHeader/gifscrollView.gif)
 
 
 
